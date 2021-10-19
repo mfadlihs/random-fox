@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding: 25px;
+}
+h1 {
+	margin: 0px auto 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image {
+	height: 400px;
+	width: 600px;
+	margin-bottom: 10px;
+	margin: 0px auto 10px;
+}
+img {
+	object-fit: contain;
+	height: 100%;
+	width: 100%;
+}
+
+.button {
+	margin: auto;
+	width: 80px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Festive', cursive;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 2px solid #f12711;
+	color: #f12711;
+	transition: all 0.3s;
+	user-select: none;
+}
+
+.button:hover {
+	cursor: pointer;
+	border: 0;
+	color: white;
+	background: linear-gradient(to right, #f12711, #f5af19);
+	box-shadow: 0px 10px 10px -5px #999;
+}
+
+.button:active {
+	position: relative;
+	top: 3px;
+	box-shadow: 0px 7px 10px -5px #999;
+}
+
+/* background: linear-gradient(to right, #f12711, #f5af19);  */
